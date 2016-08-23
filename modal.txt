@@ -1,6 +1,7 @@
     <div class="modal fade alert" id="squarespaceModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
+    <%--Aqui esta el boton de la ventana modal--%>
         <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">x</span><span class="sr-only">Close</span></button>
             <h3 class="modal-title" id="lineModalLabel">Login</h3>
@@ -16,9 +17,9 @@
               </div>
               
               <div class="form-group">
-                <label for="exampleInputPassword1">Contraseña</label>
-               <%-- <input type="password" class="form-control" id="user-email2" placeholder="Introducir Contraseña" required="required" autofocus="autofocus"/>--%>
-                  <asp:TextBox ID="Txt_password" runat="server" CssClass="form-control focus" required="required" placeholder="Introducir Contraseña" ></asp:TextBox>
+                <label for="exampleInputPassword1">ContraseÃ±a</label>
+               <%-- <input type="password" class="form-control" id="user-email2" placeholder="Introducir ContraseÃ±a" required="required" autofocus="autofocus"/>--%>
+                  <asp:TextBox ID="Txt_password" runat="server" CssClass="form-control focus" required="required" placeholder="Introducir ContraseÃ±a" ></asp:TextBox>
               </div>
               <div class="checkbox">
                 <label>
