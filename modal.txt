@@ -10,6 +10,8 @@
 		<%--Aqui empieza el cuerpo de la ventana modal--%>
         <div class="modal-body">
             <form runat="server">
+            
+            	<%--Estos son los textbox--%>
               <div class="form-group">
                 <label for="exampleInputEmail1">Correo Electronico</label>
                 <%--<input type="email" class="form-control" id="user-email1" name="email" autofocus="autofocus" placeholder="Introducir Correo" required="required"  />--%>
