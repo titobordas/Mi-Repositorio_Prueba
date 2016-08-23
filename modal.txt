@@ -1,0 +1,32 @@
+    <div class="modal fade alert" id="squarespaceModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">x</span><span class="sr-only">Close</span></button>
+            <h3 class="modal-title" id="lineModalLabel">Login</h3>
+        </div>
+        <div class="modal-body">
+            <form runat="server">
+              <div class="form-group">
+                <label for="exampleInputEmail1">Correo Electronico</label>
+                <%--<input type="email" class="form-control" id="user-email1" name="email" autofocus="autofocus" placeholder="Introducir Correo" required="required"  />--%>
+                  <asp:TextBox ID="Txt_email"  runat="server" CssClass="form-control focus" required="required" placeholder="Introducir Correo" ></asp:TextBox>
+              </div>
+              
+              <div class="form-group">
+                <label for="exampleInputPassword1">Contraseña</label>
+               <%-- <input type="password" class="form-control" id="user-email2" placeholder="Introducir Contraseña" required="required" autofocus="autofocus"/>--%>
+                  <asp:TextBox ID="Txt_password" runat="server" CssClass="form-control focus" required="required" placeholder="Introducir Contraseña" ></asp:TextBox>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox"/> Recordarme 
+                </label>
+              </div>
+             <%-- <button type="submit" class="btn btn-primary center-block">Login</button>--%>
+                <asp:Button ID="Btn_login" runat="server" Text="Login" CssClass="btn btn-primary center-block" />
+            </form>
+        </div>
+    </div>
+  </div>
+</div>
