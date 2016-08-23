@@ -5,6 +5,8 @@
             <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">x</span><span class="sr-only">Close</span></button>
             <h3 class="modal-title" id="lineModalLabel">Login</h3>
         </div>
+
+		<%--Aqui empieza el cuerpo de la ventana modal--%>
         <div class="modal-body">
             <form runat="server">
               <div class="form-group">
